@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	::selection {
+		background: white;
+		color: black;
+	}
+	* {
+		@apply scroll-smooth;
+	}
+	
+	.responsive {
+		@apply px-20;
+	}
+}
+
+@layer base {
+	@font-face {
+		font-family: Sequel100;
+		font-weight: 900;
+		src: url(/fonts/Sequel100Black.ttf);
+	}
+}
