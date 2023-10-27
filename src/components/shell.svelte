@@ -17,7 +17,7 @@
 		<slot />
 	</div>
 	<div class="h-full col-span-2 flex items-center px-20">
-		<h2 class="text-gray-200 font-display font-black uppercase text-5xl max-w-xl">{title}</h2>
+		<h2 class="text-gray-200 font-display font-black uppercase text-6xl max-w-xl">{title}</h2>
 	</div>
 	<div class="h-full col-span-1 flex text-gray-200 divide-x divide-gray-800">
 		<a class="flex-1 flex justify-center items-center group" href={leftLink.href}>
